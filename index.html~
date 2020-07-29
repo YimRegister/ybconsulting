@@ -24,7 +24,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>YB Consulting LLC</title>
+    <title>YB Consulting</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
@@ -48,7 +48,7 @@ https://www.tooplate.com/view/2115-marvel
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/brain.jpg" style="width:8%;"></i> YB Consulting LLC</a>
+            <a class="navbar-brand" href="index.html"><img src="images/brain.jpg" style="width:8%;"></i> YB Consulting</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -59,24 +59,28 @@ https://www.tooplate.com/view/2115-marvel
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                      <a href="#about" class="nav-link"><span data-hover="Why Inclusion?">Why Inclusion?</span></a>
-                  </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="Mission">Mission</span></a>
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Services">Services</span></a>
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Experience">Experience</span></a>
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
                 </ul>
 
-
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
             </div>
         </div>
     </nav>
@@ -90,23 +94,23 @@ https://www.tooplate.com/view/2115-marvel
                     <div class="about-text">
                         <p>Let's change the <span class="mobile-block">narrative.</span></p>
                         <h1 class="animated animated-text">
-                            <span class="mr-2">I am</span>
-                                <div class="animated-info" style="width:400px;">
+                            <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info" style="width:300px;">
                                     <span class="animated-item">Yolanda Barton</span>
-                                    <span class="animated-item" style="color:#bd48b5;">an Inclusion Architect</span>
-                                    <span class="animated-item" style="color:#48bdbb;">a Cultural Curator</span>
+                                    <span class="animated-item">an Inclusion Architect</span>
+                                    <span class="animated-item">a Cultural Curator</span>
 
                                 </div>
                         </h1>
-
-
+                        <br>
+                        <br>
                         <p>
 
                           I use creativity, <a href="#culturalcuration">cultural curation</a>, and my technical background to help you audit your organization’s vision, attitudes, behaviors and practices. Together, we will assess your organization's ability to promote inclusion and increase trust. Let's explore the benefits of valuing each other by introducing new strategies of communication.</p>
 
                         <div class="custom-btn-group mt-4">
-                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download CV</a>
-
+                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          
                         </div>
                     </div>
                 </div>
@@ -120,70 +124,26 @@ https://www.tooplate.com/view/2115-marvel
             </div>
         </div>
     </section>
-<!-- MISSION -->
-<section>
-  <center>
-<div class ="container">
-  <h2>Mission Statement</h2>
-
-    <h3>MY GOAL:</h3>
-    <p>Provide Cultural Intelligence that fosters inclusive Communities and workplaces</p>
-
-    <h3>MY MISSION is to help organizations:</h3>
-    <p>
-    Create and Maintain an inclusive culture that fosters innovation and high performance<br>
-    Attract, develop, retain and motivate employees<br>
-    Identify and Promote Inclusion awareness throughout the workplace<br>
-    Facilitate strategic outcomes that influence impactful opportunities<br>
-    Incorporate cultural influences in their process development, HR practices<br>
-    Demonstrate how diverse perspectives engage with goods, and how those goods influence ideas and behaviors
-</p>
-
-</div>
-<br><br>
-</center>
-</section>
 
     <!-- PHASES -->
 <section>
-  <center>
 <div class ="container">
-<h2>Services</h2>
-<h3> A 3-Phase Transformation for Your Business</h3><br><br>
+  <center>
+    <h2> A 3-Phase Transformation for Your Business</h2><br><br>
     <div class="row">
-
       <div class="column">
-        <a href="#about">
-          <div class="container2 phases">
-            <img src="images/audit.png" alt="Avatar" class="image" style="height:250px; ">
-            <div class="overlay">
-            <div class="text">Phase 1:<br> Discovery/Audit</div>
-          </div>
-        </a>
-</div>
+        <a class="phases">Phase 1:<br> Discovery/Audit<br><br>
+        <img src="images/audit.png" alt="audit"style="height:250px;" ><a>
       </div>
       <div class="column">
-        <a href="#about">
-        <div class="container2 phases">
-
-            <img src="images/phase2.png" alt="Avatar" class="image" style="height:250px; ">
-          <div class="overlay">
-          <div class="text">Phase 2:<br> Identify New Approaches</div>
-        </div>
+        <a class="phases">Phase 2:<br> Identify New Approaches<br><br>
+        <img src="images/phase2.PNG" alt="communication"style="height:250px;" ><a>
       </div>
-    </a>
+      <div class="column">
+        <a class="phases">Phase 3:<br> Customize and Implement<br><br>
+        <img src="images/phase3.png" alt="strategy" style="height:250px;"><a>
+      </div>
     </div>
-      <div class="column">
-        <a href="#about">
-        <div class="container2 phases">
-          <img src="images/phase3.png" alt="Avatar" class="image" style="height:250px; ">
-          <div class="overlay">
-          <div class="text">Phase 3:<br> Customize & Implement</div>
-        </div>
-      </div>
-    </a>
-    </div>
-  </div>
 
   </center>
 
@@ -360,7 +320,7 @@ https://www.tooplate.com/view/2115-marvel
 
           <div class="col-lg-6 col-12">
             <div class="contact-form">
-              <h2 class="mb-4">When you're ready to take the leap and transform your business culture, I'm here for you.</h2>
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
               <form action="" method="get">
                 <div class="row">
@@ -377,7 +337,7 @@ https://www.tooplate.com/view/2115-marvel
                   </div>
 
                   <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
                   </div>
                 </div>
               </form>
