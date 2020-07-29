@@ -31,7 +31,8 @@ ul {
   padding: 0;
 }
 ul li {
-  list-style: none;
+  list-style: circle;
+  margin: 0% 15% 0% 15%;
 }
 
 a {
@@ -270,7 +271,9 @@ b, strong {
   width: 100%;
   height: auto;
 }
-
+ul.a {
+  list-style-type: circle;
+}
 .overlay {
   position: absolute;
   top: 0;
