@@ -172,8 +172,10 @@ b, strong {
   right: 0;
   left: 0;
   z-index: 999999;
+  overflow: hidden;
   will-change: transform;
   transition: transform 200ms linear;
+
 }
 .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);

@@ -46,7 +46,7 @@ https://www.tooplate.com/view/2115-marvel
   <body>
 
     <!-- MENU -->
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light -pinned">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="images/brain.jpg" style="width:8%;"></i> YB Consulting LLC</a>
 
@@ -63,10 +63,10 @@ https://www.tooplate.com/view/2115-marvel
                       <a href="#about" class="nav-link"><span data-hover="Why Inclusion?">Why Inclusion?</span></a>
                   </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="Mission">Mission</span></a>
+                        <a href="#accordion" class="nav-link"><span data-hover="Mission">Mission</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Services">Services</span></a>
+                        <a href="#services" class="nav-link"><span data-hover="Services">Services</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#resume" class="nav-link"><span data-hover="Experience">Experience</span></a>
@@ -75,7 +75,6 @@ https://www.tooplate.com/view/2115-marvel
                         <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                     </li>
                 </ul>
-
 
             </div>
         </div>
@@ -123,34 +122,49 @@ https://www.tooplate.com/view/2115-marvel
 <!-- MISSION -->
 <section>
   <center>
-<div class ="container">
-  <h2>Mission Statement</h2>
+<div id="accordion">
+  <div class="card" style="width:50%;">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #ffc200;">
+    <div class="card-header" id="headingOne">
+          My GOAL ▼        </button>
+      </h5>
+    </div>
 
-    <h3>MY GOAL:</h3>
-    <p>Provide Cultural Intelligence that fosters inclusive communities and workplaces</p>
-
-    <h3>MY MISSION is to help organizations:</h3>
-  </center>
-  <br>
-  <ul style="list-style: circle; padding-left:33%;padding-right:33%;">
-  <li style="list-style:circle;">Create and Maintain an inclusive culture that fosters innovation and high performance</li>
-  <li style="list-style:circle;">Attract, develop, retain and motivate employees</li>
-  <li style="list-style:circle;">Identify and Promote Inclusion awareness throughout the workplace</li>
-  <li style="list-style:circle;">Facilitate strategic outcomes that influence impactful opportunities</li>
-  <li style="list-style:circle;">Incorporate cultural influences in their process development, HR practices</li>
-  <li style="list-style:circle;">Demonstrate how diverse perspectives engage with goods, and how those goods influence ideas and behaviors</li>
-</ul>
-
-
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Provide Cultural Intelligence that fosters inclusive communities and workplaces.
+      </div>
+    </div>
+  </div>
+  <div class="card" style="width:50%;">
+    <button class="btn btn-secondary collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color:#48bdbb;">
+    <div class="card-header" id="headingTwo">
 
 
+        MY MISSION is to help organizations ▼
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <ul style="list-style: circle; padding-left:33%;padding-right:33%;">
+        <li style="list-style:circle;">Create and Maintain an inclusive culture that fosters innovation and high performance</li>
+        <li style="list-style:circle;">Attract, develop, retain and motivate employees</li>
+        <li style="list-style:circle;">Identify and Promote Inclusion awareness throughout the workplace</li>
+        <li style="list-style:circle;">Facilitate strategic outcomes that influence impactful opportunities</li>
+        <li style="list-style:circle;">Incorporate cultural influences in their process development, HR practices</li>
+        <li style="list-style:circle;">Demonstrate how diverse perspectives engage with goods, and how those goods influence ideas and behaviors</li>
+      </ul>
+      </div>
+    </div>
+  </div>
 </div>
-<br><br>
-
+<br>
+<br>
 </section>
 
     <!-- PHASES -->
-<section>
+<section id="services">
   <center>
 <div class ="container">
 <h2>Services</h2>
@@ -160,7 +174,7 @@ https://www.tooplate.com/view/2115-marvel
       <div class="column">
         <a href="#about">
           <div class="container2 phases">
-            <img src="images/audit.png" alt="Avatar" class="image" style="height:250px; ">
+            <img src="images/audit.png" alt="Avatar" class="image" >
             <div class="overlay">
             <div class="text">Phase 1:<br> Discovery/Audit</div>
           </div>
@@ -171,7 +185,7 @@ https://www.tooplate.com/view/2115-marvel
         <a href="#about">
         <div class="container2 phases">
 
-            <img src="images/phase2.PNG" alt="Avatar" class="image" style="height:250px; ">
+            <img src="images/phase2.PNG" alt="Avatar" class="image" >
           <div class="overlay">
           <div class="text">Phase 2:<br> Identify New Approaches</div>
         </div>
@@ -181,7 +195,7 @@ https://www.tooplate.com/view/2115-marvel
       <div class="column">
         <a href="#about">
         <div class="container2 phases">
-          <img src="images/phase3.png" alt="Avatar" class="image" style="height:250px; ">
+          <img src="images/phase3.png" alt="Avatar" class="image" >
           <div class="overlay">
           <div class="text">Phase 3:<br> Customize & Implement</div>
         </div>
@@ -205,7 +219,7 @@ https://www.tooplate.com/view/2115-marvel
                   <div class="col-lg-11 text-center mx-auto col-12">
 
                       <div class="col-lg-8 mx-auto">
-                        <h2>Workshops, events, and talks I have done for major tech companies</h2>
+                        <h2>Workshops . Talks . Consultations</h2>
                       </div>
 
                       <div class="owl-carousel owl-theme">
