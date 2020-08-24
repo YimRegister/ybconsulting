@@ -567,7 +567,15 @@ ul.a {
   h1 {
     font-size: 2.4em;
   }
+  .values {
+    width:70%;
+  }
+  
+ .why {
 
+   padding-left: 0%;
+   padding-right:0%;
+ }
   h2 {
     font-size: 2em;
   }
@@ -611,6 +619,7 @@ ul.a {
     display: block;
     margin: 10px 0 0 0;
   }
+
 }
 @media (max-width: 320px) {
   .animated-text {
